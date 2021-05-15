@@ -12,5 +12,6 @@ public class IOCTest {
         Date now=(Date)context.getBean("now");
         System.out.println("Now is "+ now );
         System.out.println("第一次修改");
+        System.out.println("第二次修改");
     }
 }
